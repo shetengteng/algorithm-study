@@ -1,12 +1,10 @@
 package com.stt.base.sort;
 
-import java.util.Arrays;
-
 /**
  * 冒泡排序
  * Created by ttshe2 on 2019/2/25.
  */
-public class BubbleSort {
+public class Bubble {
 
     // 从小到大排序
     public static void sort(int[] arr){
@@ -29,11 +27,4 @@ public class BubbleSort {
             }
         }
     }
-
-    public static void main(String[] args) {
-        int[] a = {9,3,7,1,3,12,5,6};
-        BubbleSort.sort(a);
-        System.out.println(Arrays.toString(a));
-    }
-
 }
