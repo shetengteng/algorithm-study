@@ -10,7 +10,11 @@ public class Test {
     public static void main(String[] args) {
         int[] a = {9,3,7,1,3,12,5,6};
 //        Bubble.sort(a);
-        Insertion.sort(a);
+//        Insertion.sort2(a);
+//        Selection.sort(a);
+//        Merge.sort(a);
+//        Quick.sort(a);
+        Quick2.sort(a);
         System.out.println(Arrays.toString(a));
 
     }
