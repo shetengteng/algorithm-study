@@ -14,7 +14,8 @@ public class Test {
 //        Selection.sort(a);
 //        Merge.sort(a);
 //        Quick.sort(a);
-        Quick2.sort(a);
+//        Quick2.sort(a);
+        Counting.sort(a);
         System.out.println(Arrays.toString(a));
 
     }
