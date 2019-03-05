@@ -4,6 +4,7 @@
 *.ipr
 *.iws
 target/
+back/
 *.jar
 code/algorithm/.mvn/wrapper/maven-wrapper.jar
 code/algorithm/mvnw
