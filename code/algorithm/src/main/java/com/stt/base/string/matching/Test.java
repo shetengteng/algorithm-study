@@ -16,5 +16,24 @@ public class Test {
 		re = kmp.handle("GTAGCGGCG","GTTATAGCTGATCGCGGCGTAGCGGCGAA");
 		System.out.println(re);
 
+		TrieTree trieTree = new TrieTree();
+		trieTree.insert("hello").insert("his").insert("see").insert("so").insert("her");
+		System.out.println(trieTree.find("hi"));
+		System.out.println(trieTree.find("his"));
+
+		AC ac = new AC();
+		AC.Node root = ac.generateTrie(new String[]{"abcd","bcd","c"});
+		ac.handle("abcdefghijkbcsxxxscssscbcdsss");
+//		ac.match("abcdefghijkbcsxxxscssscbcdsss");
+		System.out.println(root);
+//
+//		匹配起始下标 2; 长度 1
+//		匹配起始下标 0; 长度 4
+//		匹配起始下标 1; 长度 3
+//		匹配起始下标 12; 长度 1
+//		匹配起始下标 18; 长度 1
+//		匹配起始下标 22; 长度 1
+//		匹配起始下标 24; 长度 1
+//		匹配起始下标 23; 长度 3
 	}
 }
